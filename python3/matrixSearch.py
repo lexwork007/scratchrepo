@@ -15,7 +15,7 @@ col = colLimit-1
 
 foundMatch = False
 
-while foundMatch is not True and row >= 0 and col >=0:
+while foundMatch is not True and row < rowLimit and col >=0:
     print("Matrix eval=", matrix[row][col])
     if (matrix[row][col] == searchNum) :
         foundMatch = True
